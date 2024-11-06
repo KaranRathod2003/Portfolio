@@ -1,0 +1,37 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    align-items: center;
+}
+img{
+    cursor: pointer;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 10px 30px;
+    box-shadow:  0 0 30px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.lists .li{
+    font-size: 20px;
+    cursor: pointer;
+}
+.lists .li.active{
+    color: rgb(255, 0, 98);
+}
+
+.theme_btn{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+    padding: 8px 10px;
+}
